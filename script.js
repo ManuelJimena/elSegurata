@@ -20,3 +20,5 @@ function verificarEdad() {
     document.getElementById("result").style.display = "block";
     return false;
   }
+  /* Revisar como poner la imagen cuando no se ha introducido
+  el año y después cambie según el resultado */
