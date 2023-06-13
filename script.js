@@ -21,4 +21,4 @@ function verificarEdad() {
     return false;
   }
   /* Revisar como poner la imagen cuando no se ha introducido
-  el año y después cambie según el resultado */
+  el año y después, cambie según el resultado */
