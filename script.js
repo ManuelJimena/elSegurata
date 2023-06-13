@@ -1,4 +1,4 @@
-function verificarEdad() {
+function elSegurata() {
     let currentYear = new Date().getFullYear();
     let yearInput = document.getElementById("year").value;
     let age = currentYear - yearInput;
