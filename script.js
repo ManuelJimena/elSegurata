@@ -1,10 +1,10 @@
 function verificarEdad() {
-    var currentYear = new Date().getFullYear();
-    var yearInput = document.getElementById("year").value;
-    var age = currentYear - yearInput;
+    let currentYear = new Date().getFullYear();
+    let yearInput = document.getElementById("year").value;
+    let age = currentYear - yearInput;
   
-    var imageElement = document.getElementById("image");
-    var messageElement = document.getElementById("message");
+    let imageElement = document.getElementById("image");
+    let messageElement = document.getElementById("message");
   
     if (yearInput === "") {
       imageElement.src = "https://i.imgur.com/qsifZzm.png";
