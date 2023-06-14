@@ -1,3 +1,5 @@
+var imagenFija = "https://i.imgur.com/qsifZzm.png";
+
 function verificarEdad() {
   let currentYear = new Date().getFullYear();
   let yearInput = document.getElementById("year").value;
@@ -7,7 +9,7 @@ function verificarEdad() {
   let messageElement = document.getElementById("message");
 
   if (yearInput === "") {
-    imageElement.src = "https://i.imgur.com/qsifZzm.png";
+    imageElement.src = imagenFija;
     messageElement.textContent = "Debes introducir el año de nacimiento.";
   } else if (age >= 18) {
     imageElement.src = "https://i.imgur.com/GZnlct0.png";
