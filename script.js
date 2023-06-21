@@ -1,5 +1,5 @@
 // Cambiado a Ternario
-const imagenFija = "https://i.imgur.com/qsifZzm.png";
+const imagenFija = "./assets/qsifZzm.png";
 
 function verificarEdad() {
   let currentYear = new Date().getFullYear(); //Añadir mes, getMonth????
@@ -23,8 +23,8 @@ function verificarEdad() {
   imageElement.src = yearInput === ""
     ? imagenFija
     : age >= 18
-      ? "https://i.imgur.com/GZnlct0.png"
-      : "https://i.imgur.com/3YWpFBW.png";
+      ? "./assets/GZnlct0.png"
+      : "./assets/3YWpFBW.png";
 
   messageElement.textContent = yearInput === ""
     ? "Debes introducir el año de nacimiento."
